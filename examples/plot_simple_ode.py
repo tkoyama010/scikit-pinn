@@ -65,7 +65,7 @@ print(f"Generated {n_train} training points from t=0 to t=5")
 #
 # .. code-block:: python
 #
-#     from scikit_pinn import PINN
+#     from skpinn import PINN
 #     model = PINN(hidden_layers=[32, 32], activation='tanh')
 #     model.fit(t_train, physics_loss=lambda t, y: dy_dt + y)
 
